@@ -39,14 +39,5 @@ div {
 .shop-item {
 	flex-direction: column;
 	padding: 10px;
-
-	/* width: 15%; */
-
-	@media (max-width: 400px) {
-		width: 40%;
-	}
-
-	@media (min-width: 400px) {
-		width: 15%;
-	}
+	width: 15%;
 }
